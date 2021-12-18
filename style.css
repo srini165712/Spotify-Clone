@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&family=Varela+Round&display=swap');
+
+body{
+    background-color: rgb(24, 21, 13);
+    color : white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    color : white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+nav ul{
+    align-items: center;
+
+    display:flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(24, 21, 13);
+}
+
+nav ul li{
+    padding: 12px;
+}
+
+.logo{
+    display : flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.logo img{
+    width : 45px;
+    padding: 8px;
+}
+.bottom{
+
+    position : sticky;
+    height : 100px;
+    background-color:rgb(24, 21, 13);
+    bottom: 0;
+    display : flex;
+    color : white;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column;
+    margin : 12px
+}
+
+.icons{
+    margin-top: 15px;
+
+}
+.icons i{
+    cursor : pointer;
+}
+
+
+.container{
+    min-height: 70vh;    
+    background-color :rgb(121, 111, 86);
+    color : white;
+    font-family: 'Varela Round', sans-serif;
+    display : flex;
+    width : 70%;
+    margin : 23px auto;
+    padding : 10px;
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2015/08/15/hip-hop-remix-2012-best-dance-music.png") ;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+}
+
+#myProgressBar{
+    width : 80vw;
+    text-align: center;
+    cursor : pointer;
+}
+
+.songItem{
+    height : 50px;
+    display : flex;
+    color : white;
+    width : 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius : 30px;
+}
+.songItem img{
+    width : 50px;
+    margin : 23px;
+    border-radius: 50px;
+}
+
+.timestamp{
+    margin : 0 23px;
+    cursor : pointer;
+}
+
+.timestamp i{
+    cursor : pointer;
+}
+
+.songitemContainer{
+    margin-top : 20px;
+}
+.songinfo{
+    position : absolute;
+    left : 10vw;
+    font-family:"Varela Round", sans-serif;
+}
+
+.songinfo img{
+    opacity : 0;
+    transition: opacity 0.5s ease-in;
+}
